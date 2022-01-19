@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/article/article",
+			"style": {
+				"navigationBarTitleText": "攻略",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#000",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/rank/rank",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#000",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/life_data/life_data",
+			"style": {
+				"navigationBarTitleText": "人生簿",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#000",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "人生重开修仙",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
